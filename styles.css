@@ -1,0 +1,130 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    background-color: #F2EBE9;
+}
+h2{
+    font-family: Prompt;
+    font-weight: 1000;
+    font-size: 2rem;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar a.Logo{
+    float: left;
+    color: #F2EBE9;
+    text-align: center;
+    padding: 14.5px 13px;
+    font-family: Montserrat;
+    font-size: x-large;
+    font-weight: 10000;
+    text-decoration: none;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #7C3E66;
+}
+.navbar a{
+    float: right;
+    color: #F2EBE9;
+    text-align: center;
+    padding: 18px 15px;
+    font-family: Montserrat;
+    font-size: large;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: #243A73;
+}
+.navbar img{
+    padding: 4px 10px 4px 10px;
+}
+.AboutMe{
+    position: relative;
+    text-align: center;
+}
+.AboutMe h1{
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    color: #243A73;
+    font-family: "Readex Pro";
+    font-size: 70px;
+    font-weight: 700;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.AboutMe table{
+    text-align: center;
+}
+.AboutMe p.maintext{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    color: #243A73;
+    font-family: "Readex Pro";
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.skills h1{
+    text-align: center;
+    color: #243A73;
+    font-family: "Readex Pro";
+    font-size: 60px;
+    font-weight: 10000;
+    padding: -20px 50px;
+}
+.skills{
+    text-align: left;
+    color: #243A73;
+    font-family: "Readex Pro";
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.skills img{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.skills table{
+    margin-left: auto;
+    margin-right: auto;
+}
+hr{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 3px solid #7C3E66;
+}
+.achievements h1{
+    text-align: center;
+    color: #243A73;
+    font-family: "Readex Pro";
+    font-size: 60px;
+    font-weight: 10000;
+    padding: -20px 50px;
+}
+.achievements{
+    text-align: center;
+    color: #243A73;
+    font-family: "Readex Pro";
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.try{
+    background-image: url("bg-1.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
